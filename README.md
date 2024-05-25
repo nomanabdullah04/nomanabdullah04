@@ -1,6 +1,6 @@
 ### Hi there 👋, Hey! This is ABDULLAH AL NOMAN.
 #### I am a " Web developer & Competitive programmer"
-![I am a " Web developer & Competitive programmer"](https://arturshttps://github.com/nomanabdullah04/nomanabdullah04/blob/main/Purple%20Abstract%20Graphic%20Design%20LinkedIn%20Article%20Cover%20Image.pngsmirnovs.github.io/github-profile-readme-generator/images/banner.png)
+![I am a " Web developer & Competitive programmer"](https://github.com/nomanabdullah04/nomanabdullah04/commit/bb7d76e2d9d8902a025626a6eb1b7467a1a4746b)
 
 A few small thought people have achieved the kingdom of the world.  I am also one of them, I know hardworking people never back down, I also wish to conquer the world one day. Inshallah.
 
@@ -20,4 +20,5 @@ Skills: HTML/CSS/C/C++/Java
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=nomanabdullah04&show_icons=true)  
 
 ![GitHub streak stats](https://streak-stats.demolab.com/?user=nomanabdullah04)  
+
 
