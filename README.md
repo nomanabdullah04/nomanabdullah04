@@ -1,6 +1,6 @@
 ### Hi there 👋, Hey! This is ABDULLAH AL NOMAN.
 #### I am a " Web developer & Competitive programmer"
-![I am a " Web developer & Competitive programmer"](https://github.com/nomanabdullah04/nomanabdullah04/commit/bb7d76e2d9d8902a025626a6eb1b7467a1a4746b)
+![I am a " Web developer & Competitive programmer"](https://github.com/nomanabdullah04/nomanabdullah04/blob/main/Black%20and%20White%20Creative%20Profile%20Information%20LinkedIn%20Article%20Cover%20Image.jpg)
 
 A few small thought people have achieved the kingdom of the world.  I am also one of them, I know hardworking people never back down, I also wish to conquer the world one day. Inshallah.
 
