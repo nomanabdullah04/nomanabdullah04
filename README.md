@@ -37,3 +37,25 @@ passion: Crafting Intelligent Solutions & High-Performance Web Apps
 currently_exploring: Deep Learning, NLP & Generative AI
 hobbies: [Competitive Programming, Tech Blogging, UI/UX Crafting]
 quote: "Code is like humor. When you have to explain it, it’s bad."
+🔭 Currently working on: Advanced Machine Learning & Deep Learning Projects.
+🌱 Learning & Improving: Large Language Models (LLMs), Computer Vision, and Microservices Architecture.
+💡 Open to collaborate on: Open-source AI tools, Web Apps, and Research Projects.
+💬 Ask me about: Python, Machine Learning algorithms, React.js, and Data Structures.
+🛠️ Tech Stack & Arsenal
+💻 Programming & Core Languages
+
+🧠 Machine Learning & Data Science
+
+🌐 Web Development & Frameworks
+
+⚙️ Tools, DevOps & Platforms
+
+📊 GitHub Activity & Metrics
+
+🏆 Featured Repositories
+Project	Description	Tech Stack
+🤖 Natural Language Processing (NLP)	Implementations of core NLP pipelines, sentiment models, and text classifiers.	Python NLP PyTorch
+🧠 Deep Learning Lab	Neural Network architectures, Computer Vision experiments & models.	TensorFlow Keras Python
+🎓 CampusNexus	Interactive student and campus management platform.	React Node.js Full-Stack
+💻 Codeforces Solutions	Problem solving archive covering DP, Graphs, Greedy & Math.	C++ Algorithms CP
+⭐ Thanks for visiting my GitHub! Feel free to star my repos if you find them helpful. ⭐
