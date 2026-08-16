@@ -1,24 +1,39 @@
-### Hi there 👋, Hey! This is ABDULLAH AL NOMAN.
-#### I am a " Web developer & Data Analyst"
-![I am a " Web developer & Competitive programmer"](https://github.com/nomanabdullah04/nomanabdullah04/blob/main/Black%20and%20White%20Creative%20Profile%20Information%20LinkedIn%20Article%20Cover%20Image.jpg)
+<div align="center">
 
-A few small thought people have achieved the kingdom of the world.  I am also one of them, I know hardworking people never back down, I also wish to conquer the world one day. Inshallah.
+  <!-- Animated Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2&bgColor=0d1117&height=220&section=header&text=Hi%20there,%20I'm%20Noman%20Abdullah%20👋&fontSize=42&fontAlignY=42&animation=fadeIn&fontColor=00d2ff&desc=AI%20/%20ML%20Enthusiast%20•%20Full%20Stack%20Developer%20•%20Problem%20Solver&descFontSize=18&descAlignY=64&descAlign=50" width="100%"/>
 
-Skills: HTML/CSS/C/C++/Java
+  <!-- Dynamic Typing Effect -->
+  <a href="https://github.com/nomanabdullah04">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Machine+Learning+%26+Deep+Learning+Explorer;Full-Stack+Web+Developer;Competitive+Programmer+%26+Problem+Solver;Building+Scalable+%26+Intelligent+Systems" alt="Typing SVG" />
+  </a>
 
-- 🌱 I’m currently learning Python 
+  <br/><br/>
 
+  <!-- Social Badges -->
+  <a href="mailto:your_email@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+  </a>
+  <a href="https://www.linkedin.com/in/nomanabdullah04" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://codeforces.com" target="_blank">
+    <img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces"/>
+  </a>
+  <a href="https://github.com/nomanabdullah04">
+    <img src="https://img.shields.io/badge/Portfolio-00d2ff?style=for-the-badge&logo=react&logoColor=black" alt="Portfolio"/>
+  </a>
 
-[<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg' alt='github' height='40'>](https://github.com/nomanabdullah04)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg' alt='linkedin' height='40'>](https://www.linkedin.com/in/https://www.linkedin.com/in/abdullah-al-noman-0540402a8//)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg' alt='facebook' height='40'>](https://www.facebook.com/https://www.facebook.com/noman.abdullah04)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg' alt='twitter' height='40'>](https://twitter.com/https://twitter.com/mohammad_nomanA)  [<img src='https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/canva.svg' alt='canva' height='40'>](https://www.canva.com/)  
+</div>
 
-<a href='https://docs.github.com/en/developers'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/devbadge.gif' width='40' height='40'></a> <a href='https://stars.github.com/'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/starbadge.gif' width='35' height='35'></a> <a href='https://docs.github.com/en/github/supporting-the-open-source-community-with-github-sponsors'><img src='https://raw.githubusercontent.com/acervenky/animated-github-badges/master/assets/sponsorbadge.gif' width='35' height='35'></a> 
+---
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=nomanabdullah04)](https://github.com/ryo-ma/github-profile-trophy)
+### ⚡ About Me
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nomanabdullah04)](https://github.com/anuraghazra/github-readme-stats)
-
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=nomanabdullah04&show_icons=true)  
-
-![GitHub streak stats](https://streak-stats.demolab.com/?user=nomanabdullah04)  
-
-
+```yaml
+name: Noman Abdullah
+role: Full-Stack Developer & ML Enthusiast
+passion: Crafting Intelligent Solutions & High-Performance Web Apps
+currently_exploring: Deep Learning, NLP & Generative AI
+hobbies: [Competitive Programming, Tech Blogging, UI/UX Crafting]
+quote: "Code is like humor. When you have to explain it, it’s bad."
