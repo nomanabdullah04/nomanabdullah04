@@ -1,17 +1,19 @@
 <div align="center">
 
 <!-- ========================================================================= -->
-<!-- HERO ANIMATED DEV BANNER (100% RELIABLE GITHUB CDN) -->
+<!-- HERO ANIMATED DEV BANNER (CUSTOM HIGH-TECH CYBERPUNK SVG) -->
 <!-- ========================================================================= -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Developer Header Banner" />
+<a href="https://nabdullah.vercel.app/">
+  <img src="./assets/banner.svg" width="100%" alt="Abdullah Al Noman - AI Architect & Full Stack Developer" />
+</a>
 
-<br/>
+<br/><br/>
 
 <!-- ========================================================================= -->
 <!-- DYNAMIC TYPING NAME & TITLE -->
 <!-- ========================================================================= -->
 <a href="https://nabdullah.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=750&height=55&lines=%F0%9F%91%8B+Hi%2C+I'm+ABDULLAH+AL+NOMAN;%E2%9A%A1+AI+%26+Deep+Learning+Architect;%F0%9F%92%BB+Full-Stack+Web+Developer;%F0%9F%94%84+MLOps+Pipeline+Engineer;%F0%9F%8F%86+Competitive+Programmer" alt="Typing Dynamic Subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&multiline=false&width=750&height=50&lines=%F0%9F%91%8B+Hi%2C+I'm+ABDULLAH+AL+NOMAN;%E2%9A%A1+AI+%26+Deep+Learning+Architect;%F0%9F%92%BB+Full-Stack+Web+Developer;%F0%9F%94%84+MLOps+Pipeline+Engineer;%F0%9F%8F%86+Competitive+Programmer" alt="Typing Dynamic Subtitle" />
 </a>
 
 <br/>
