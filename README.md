@@ -10,13 +10,13 @@
 <br/><br/>
 
 <!-- ========================================================================= -->
-<!-- DYNAMIC TYPING NAME & TITLE -->
+<!-- DYNAMIC TYPING NAME & TITLE (WITH DARK TERMINAL BACKGROUND) -->
 <!-- ========================================================================= -->
 <a href="https://nabdullah.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=00F0FF&background=0D111700&center=true&vCenter=true&multiline=false&width=750&height=50&lines=%F0%9F%91%8B+Hi%2C+I'm+ABDULLAH+AL+NOMAN;%E2%9A%A1+AI+%26+Deep+Learning+Architect;%F0%9F%92%BB+Full-Stack+Web+Developer;%F0%9F%94%84+MLOps+Pipeline+Engineer;%F0%9F%8F%86+Competitive+Programmer" alt="Typing Dynamic Subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=00F0FF&background=0D1117&center=true&vCenter=true&multiline=false&width=750&height=48&lines=%F0%9F%91%8B+Hi%2C+I'm+ABDULLAH+AL+NOMAN;%E2%9A%A1+AI+%26+Deep+Learning+Architect;%F0%9F%92%BB+Full-Stack+Web+Developer;%F0%9F%94%84+MLOps+Pipeline+Engineer;%F0%9F%8F%86+Competitive+Programmer" alt="Typing Dynamic Subtitle" />
 </a>
 
-<br/>
+<br/><br/>
 
 <!-- ========================================================================= -->
 <!-- QUICK BADGES & SOCIAL LINKS -->
