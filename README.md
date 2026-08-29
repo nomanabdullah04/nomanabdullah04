@@ -1,15 +1,17 @@
-# <div align="center">
+<div align="center">
 
 <!-- ========================================================================= -->
-<!-- HEADER ANIMATION BANNER -->
+<!-- HERO ANIMATED DEV BANNER (100% RELIABLE GITHUB CDN) -->
 <!-- ========================================================================= -->
-![Abdullah Al Noman Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=220&section=header&text=ABDULLAH%20AL%20NOMAN&fontSize=42&fontAlignY=38&desc=AI%20%26%20Deep%20Learning%20Engineer%20%7C%20Full-Stack%20Developer%20%7C%20MLOps&descFontSize=17&descAlignY=62&descAlign=50&fontColor=ffffff)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Developer Header Banner" />
+
+<br/>
 
 <!-- ========================================================================= -->
-<!-- DYNAMIC TYPING SVG -->
+<!-- DYNAMIC TYPING NAME & TITLE -->
 <!-- ========================================================================= -->
 <a href="https://nabdullah.vercel.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2800&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=650&height=50&lines=%E2%9A%A1+AI+%26+Deep+Learning+Architect;%F0%9F%92%BB+Full-Stack+Software+Developer+(React+%2B+Node);%F0%9F%94%84+MLOps+Pipelines+(BentoML+%2B+MLflow+%2B+DVC);%F0%9F%8E%93+CSE+Undergrad+at+Comilla+University+(CoU);%F0%9F%9A%80+Creator+of+CampusNexus+%26+Coffee_Or_Tea;%F0%9F%8F%86+Competitive+Programmer+%26+Pythonista" alt="Typing Dynamic Subtitle" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&multiline=false&width=750&height=55&lines=%F0%9F%91%8B+Hi%2C+I'm+ABDULLAH+AL+NOMAN;%E2%9A%A1+AI+%26+Deep+Learning+Architect;%F0%9F%92%BB+Full-Stack+Web+Developer;%F0%9F%94%84+MLOps+Pipeline+Engineer;%F0%9F%8F%86+Competitive+Programmer" alt="Typing Dynamic Subtitle" />
 </a>
 
 <br/>
@@ -35,9 +37,10 @@
   </a>
 </p>
 
-</div>
+<!-- CYBER DIVIDER -->
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Divider Line" />
 
----
+</div>
 
 ### 💫 About Me
 
@@ -57,7 +60,9 @@ philosophy: "My style is not just about what I wear, it's about how I live."
 - 🏆 Actively sharpening algorithmic thinking and data structure mastery through **Competitive Programming** in C++.
 - 💬 Reach out to me about: **Deep Learning, Neural Networks, React & Node.js, PyTorch, Docker, or Algorithms**!
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Divider Line" />
+</div>
 
 ### 🛠️ Tech Stack & Arsenal
 
@@ -97,9 +102,10 @@ philosophy: "My style is not just about what I wear, it's about how I live."
   <img src="https://skillicons.dev/icons?i=cpp,c,python,postgres,mongodb,mysql,sqlite,postman,vscode&perline=10&theme=dark" alt="Languages & Tools" />
 </a>
 
-</div>
+<br/>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Divider Line" />
 
----
+</div>
 
 ### 🚀 Featured Works & Breakthroughs
 
@@ -181,7 +187,9 @@ philosophy: "My style is not just about what I wear, it's about how I live."
   </tr>
 </table>
 
----
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Divider Line" />
+</div>
 
 ### 📊 GitHub Activity & Analytics
 
@@ -212,9 +220,10 @@ philosophy: "My style is not just about what I wear, it's about how I live."
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nomanabdullah04&theme=tokyonight" alt="Repos per Language" width="49%" />
 </a>
 
-</div>
+<br/>
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Divider Line" />
 
----
+</div>
 
 ### ⚡ Dev Laugh & Wisdom
 
@@ -229,7 +238,7 @@ philosophy: "My style is not just about what I wear, it's about how I live."
 ---
 
 <!-- ========================================================================= -->
-<!-- FOOTER WAVE & CONNECT -->
+<!-- FOOTER & CONNECT -->
 <!-- ========================================================================= -->
 <div align="center">
 
@@ -251,6 +260,6 @@ philosophy: "My style is not just about what I wear, it's about how I live."
 
 <p><i>⭐️ From <b>Abdullah Al Noman</b> — Never stop learning, innovating, and shipping! ⭐️</i></p>
 
-![Footer Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0052D4,50:4364F7,100:6FB1FC&height=120&section=footer)
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" alt="Divider Line" />
 
 </div>
