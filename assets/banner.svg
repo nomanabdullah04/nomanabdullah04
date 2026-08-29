@@ -1,0 +1,266 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 370" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a14" />
+      <stop offset="50%" stop-color="#0b1120" />
+      <stop offset="100%" stop-color="#05070f" />
+    </linearGradient>
+
+    <!-- Animated Neon Color Cycle Gradient -->
+    <linearGradient id="neonCyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF">
+        <animate attributeName="stop-color" values="#00F0FF; #7928CA; #FF0080; #38BDF8; #00F0FF" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#7928CA">
+        <animate attributeName="stop-color" values="#7928CA; #FF0080; #38BDF8; #00F0FF; #7928CA" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#FF0080">
+        <animate attributeName="stop-color" values="#FF0080; #38BDF8; #00F0FF; #7928CA; #FF0080" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Accent Flow Gradient -->
+    <linearGradient id="streamGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#7928CA" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Ambient Glowing Spots -->
+    <radialGradient id="glowLeft" cx="15%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#00F0FF" stop-opacity="0.02" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowRight" cx="85%" cy="65%" r="55%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#7928CA" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Cyber Matrix Grid -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.45" />
+      <circle cx="40" cy="0" r="1.2" fill="#00F0FF" fill-opacity="0.35" />
+    </pattern>
+
+    <!-- Blur Filter for Neon Lights -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Outfit', sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+        letter-spacing: 2.5px;
+        text-anchor: middle;
+        fill: url(#neonCyanPurple);
+      }
+
+      .badge-tag {
+        font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        fill: #00F0FF;
+      }
+
+      .sub-title {
+        font-family: 'Fira Code', Consolas, Monaco, 'Courier New', monospace;
+        font-weight: 600;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        fill: #94A3B8;
+        text-anchor: middle;
+      }
+
+      .pill-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        fill: #F1F5F9;
+        text-anchor: middle;
+      }
+
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+
+      @keyframes scanline {
+        0% { transform: translateY(-80px); opacity: 0; }
+        30% { opacity: 0.8; }
+        70% { opacity: 0.8; }
+        100% { transform: translateY(390px); opacity: 0; }
+      }
+
+      @keyframes streamFlow {
+        0% { stroke-dashoffset: 180; }
+        100% { stroke-dashoffset: 0; }
+      }
+
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes pulseNode {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.4); opacity: 1; }
+      }
+
+      .floating-layer {
+        animation: floatSlow 5.5s ease-in-out infinite;
+      }
+
+      .scan-beam {
+        animation: scanline 4.5s linear infinite;
+      }
+
+      .stream-path {
+        stroke-dasharray: 10, 10;
+        animation: streamFlow 3s linear infinite;
+      }
+
+      .cursor {
+        animation: blink 0.9s infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Background -->
+  <rect width="1200" height="370" rx="20" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glow Layers -->
+  <rect width="1200" height="370" rx="20" fill="url(#glowLeft)" />
+  <rect width="1200" height="370" rx="20" fill="url(#glowRight)" />
+  <rect width="1200" height="370" rx="20" fill="url(#glowCenter)" />
+
+  <!-- Cyber Grid Background -->
+  <rect width="1196" height="366" x="2" y="2" rx="19" fill="url(#cyberGrid)" />
+
+  <!-- Dynamic Glowing Outer Border -->
+  <rect width="1196" height="366" x="2" y="2" rx="19" fill="none" stroke="url(#neonCyanPurple)" stroke-width="1.8" stroke-opacity="0.75" />
+
+  <!-- Animated Laser Scanning Beam -->
+  <g class="scan-beam">
+    <line x1="10" y1="0" x2="1190" y2="0" stroke="url(#neonCyanPurple)" stroke-width="2" opacity="0.65" filter="url(#neonGlow)"/>
+  </g>
+
+  <!-- HUD Cyberpunk Tech Corners -->
+  <!-- Top Left -->
+  <path d="M 28 52 L 28 28 L 52 28" fill="none" stroke="#00F0FF" stroke-width="2.5" />
+  <circle cx="28" cy="28" r="2.5" fill="#00F0FF" />
+  <text x="60" y="40" class="badge-tag">🟢 STATUS: ACTIVE / BUILDING</text>
+
+  <!-- Top Right -->
+  <path d="M 1172 52 L 1172 28 L 1148 28" fill="none" stroke="#FF0080" stroke-width="2.5" />
+  <circle cx="1172" cy="28" r="2.5" fill="#FF0080" />
+  <text x="1140" y="40" class="badge-tag" text-anchor="end" fill="#FF0080">LOC: BANGLADESH 🇧🇩</text>
+
+  <!-- Bottom Left -->
+  <path d="M 28 318 L 28 342 L 52 342" fill="none" stroke="#00F0FF" stroke-width="2.5" />
+  <circle cx="28" cy="342" r="2.5" fill="#00F0FF" />
+  <text x="60" y="336" class="badge-tag" fill="#64748B">&lt;AI_MLOPS_FULLSTACK_V2.0/&gt;</text>
+
+  <!-- Bottom Right -->
+  <path d="M 1172 318 L 1172 342 L 1148 342" fill="none" stroke="#7928CA" stroke-width="2.5" />
+  <circle cx="1172" cy="342" r="2.5" fill="#7928CA" />
+  <text x="1140" y="336" class="badge-tag" text-anchor="end" fill="#A78BFA">EXP: RESEARCH &amp; SHIP 🚀</text>
+
+  <!-- Neural Constellation Left -->
+  <g opacity="0.6">
+    <line x1="80" y1="130" x2="160" y2="85" stroke="#00F0FF" stroke-width="1.2" class="stream-path" />
+    <line x1="160" y1="85" x2="200" y2="165" stroke="#7928CA" stroke-width="1.2" />
+    <line x1="80" y1="130" x2="120" y2="225" stroke="#38BDF8" stroke-width="1.2" />
+    <line x1="120" y1="225" x2="200" y2="165" stroke="#00F0FF" stroke-width="1.2" class="stream-path" />
+    <line x1="200" y1="165" x2="260" y2="235" stroke="#FF0080" stroke-width="1.2" />
+
+    <circle cx="80" cy="130" r="4.5" fill="#00F0FF" />
+    <circle cx="160" cy="85" r="3.5" fill="#7928CA" />
+    <circle cx="200" cy="165" r="5" fill="#38BDF8" />
+    <circle cx="120" cy="225" r="3.5" fill="#00F0FF" />
+    <circle cx="260" cy="235" r="4.5" fill="#FF0080" />
+  </g>
+
+  <!-- Neural Constellation Right -->
+  <g opacity="0.6">
+    <line x1="1120" y1="130" x2="1040" y2="85" stroke="#FF0080" stroke-width="1.2" class="stream-path" />
+    <line x1="1040" y1="85" x2="1000" y2="165" stroke="#7928CA" stroke-width="1.2" />
+    <line x1="1120" y1="130" x2="1080" y2="225" stroke="#00F0FF" stroke-width="1.2" />
+    <line x1="1080" y1="225" x2="1000" y2="165" stroke="#FF0080" stroke-width="1.2" class="stream-path" />
+    <line x1="1000" y1="165" x2="940" y2="235" stroke="#38BDF8" stroke-width="1.2" />
+
+    <circle cx="1120" cy="130" r="4.5" fill="#FF0080" />
+    <circle cx="1040" cy="85" r="3.5" fill="#7928CA" />
+    <circle cx="1000" cy="165" r="5" fill="#00F0FF" />
+    <circle cx="1080" cy="225" r="3.5" fill="#FF0080" />
+    <circle cx="940" cy="235" r="4.5" fill="#38BDF8" />
+  </g>
+
+  <!-- Central Dynamic Hero Group -->
+  <g class="floating-layer">
+    <!-- Top Welcome Capsule -->
+    <g transform="translate(600, 80)">
+      <rect x="-135" y="-14" width="270" height="28" rx="14" fill="#0d1117" stroke="#00F0FF" stroke-width="1.2" />
+      <circle cx="-110" cy="0" r="4" fill="#00F0FF">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="8" y="5" class="badge-tag" text-anchor="middle" fill="#38BDF8">✨ WELCOME TO MY REPO ✨</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="152" class="title-text">ABDULLAH AL NOMAN</text>
+
+    <!-- Code Subtitle with Typing Cursor -->
+    <text x="600" y="198" class="sub-title">
+      <tspan fill="#00F0FF">const</tspan> <tspan fill="#F8FAFC">role</tspan> = <tspan fill="#FCD34D">"AI Architect &amp; Full-Stack Engineer"</tspan><tspan class="cursor" fill="#00F0FF">_</tspan>
+    </text>
+
+    <!-- Specialty Badges Row -->
+    <g transform="translate(600, 252)">
+      <!-- AI & Deep Learning -->
+      <g transform="translate(-330, 0)">
+        <rect x="-95" y="-16" width="190" height="32" rx="16" fill="#111827" stroke="#00F0FF" stroke-width="1.2" />
+        <text x="0" y="5" class="pill-text">🧠 AI &amp; Deep Learning</text>
+      </g>
+
+      <!-- MLOps & Cloud -->
+      <g transform="translate(-110, 0)">
+        <rect x="-95" y="-16" width="190" height="32" rx="16" fill="#111827" stroke="#7928CA" stroke-width="1.2" />
+        <text x="0" y="5" class="pill-text">🔄 MLOps &amp; Cloud</text>
+      </g>
+
+      <!-- Full-Stack Web -->
+      <g transform="translate(110, 0)">
+        <rect x="-95" y="-16" width="190" height="32" rx="16" fill="#111827" stroke="#38BDF8" stroke-width="1.2" />
+        <text x="0" y="5" class="pill-text">💻 Full-Stack Web</text>
+      </g>
+
+      <!-- Competitive Programming -->
+      <g transform="translate(330, 0)">
+        <rect x="-95" y="-16" width="190" height="32" rx="16" fill="#111827" stroke="#FF0080" stroke-width="1.2" />
+        <text x="0" y="5" class="pill-text">🏆 Problem Solver</text>
+      </g>
+    </g>
+
+    <!-- Terminal Signature -->
+    <text x="600" y="302" font-family="'Fira Code', Consolas, monospace" font-size="12" fill="#64748B" text-anchor="middle">
+      <tspan fill="#38BDF8">import</tspan> { Scalability, Innovation, HighPerformance } <tspan fill="#38BDF8">from</tspan> <tspan fill="#A78BFA">'@noman/core'</tspan>
+    </text>
+  </g>
+</svg>
+
